@@ -1,11 +1,19 @@
 const FormSelect = ({label, name, list, defaultValue, size}) => {
   return (
-    <div className="form-control">
-<label htmlFor="name" className="label">
-    <span className="label-text capitalize">{label}</span>
-</label>
-<select name={name} id={name} defaultValue={defaultValue} className={'select select-bordered ${size}'}></select>
-    </div>
+<fieldset className="fieldset">
+  <legend className="fieldset-legend">{label}</legend>
+  <select defaultValue={defaultValue} className="select ${size}">
+ {
+    list.map((item) =>{
+        return(
+            <option value={item} key={item}>{item}</option>
+        )
+    }
+)
+ }
+  </select>
+  <span className="label">Optional</span>
+</fieldset>
   )
 }
 
