@@ -8,6 +8,8 @@ const Filter = () => {
 <FormInput type={'search'} label={'Search Product'} name={'search'} size={'input-sm'}/>
 {/* CATEGORY */}
 <FormSelect label={'Select Category'} name={'category'} list={[1,2,3]} size={'select-sm'}/>
+{/* COMPANIES */}
+<FormSelect name={'company'} label={'Select Company'} list={1,2,3} size={'select-sm'}
 {/* Buttons */}
 <button type='submit' className='btn btn-primary btn-sm'>SEARCH</button>
 <Link to={'/products'} className='btn btn-accent btn-sm text-white'>Reset</Link>
