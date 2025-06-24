@@ -1,4 +1,4 @@
-import {Form} from 'react-router-dom'
+import {Form, Link} from 'react-router-dom'
 import FormInput from './FormInput'
 const Filter = () => {
   return (
@@ -6,7 +6,9 @@ const Filter = () => {
 {/* Search */}
 <FormInput type={'search'} label={'Search Product'} name={'search'} size={'input-sm'}/>
 {/* Buttons */}
-<button type='submit' ></button>
+<button type='submit' className='btn btn-primary btn-sm'>SEARCH</button>
+<Link to={'/products'} className='btn btn-accent btn-sm text-white'>Reset</Link>
+
     </Form>
   )
 }
