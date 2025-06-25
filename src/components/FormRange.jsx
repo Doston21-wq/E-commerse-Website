@@ -22,7 +22,8 @@ className='range range-primary ${size}'
  />
  <div className='w-full flex justify-betwenn text-xs px-2 mt-2'>
 <span className='font-bold text-md'>0</span>
-<span className='font-bold text-md'>Max:{formatPrice(maxPrice)}</span>
+
+<span className='font-bold text-md ml-35'>Max:{formatPrice(maxPrice)}</span>
  </div>
     </div>
   )
