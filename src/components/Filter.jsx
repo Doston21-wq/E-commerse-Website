@@ -22,7 +22,7 @@ const Filter = () => {
 {/* Buttons */}
 <button type='submit' className='btn btn-primary btn-sm'>SEARCH</button>
 <Link to={'/products'} className='btn btn-accent btn-sm text-white'>Reset</Link>
-
+ 
     </Form>
   )
 }
