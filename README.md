@@ -1,12 +1,45 @@
-# React + Vite
+# Comfy Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu mening React loyiham.
+# Comfy Store
+![Comfy Store](./src/assets/Review/light.png)
+![Comfy Store](./src/assets/Review/dark.png)
 
-Currently, two official plugins are available:
+> **Comfy Store** — zamonaviy, responsiv va foydalanuvchi uchun qulay online do‘kon frontend loyihasi.  
+> React va Tailwind CSS yordamida yaratilgan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📖 Loyiha haqida
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Comfy Store — mijozlarga qulay mahsulotlarni ko‘rish, tanlash va xarid qilish imkonini beruvchi onlayn do‘kon.  
+Loyiha asosan quyidagi texnologiyalar asosida ishlab chiqilgan:
+
+- React-Vite
+- Tailwind CSS
+- React Router
+- Redux 
+- Axios (API so‘rovlar uchun)
+- Tanstack Query
+
+---
+## 🚀 Loyihani ishga tushirish bo‘yicha ko‘rsatmalar
+
+Quyidagi bosqichlarni bajaring:
+1. Loyihani GitHub’dan klonlash:
+```bash
+git clone https://github.com/SardorbekCoder07/Comfy-Store.git
+
+## 🚀 Loyihani ishga tushirish
+
+Quyidagi buyruqlarni terminalda ketma-ket bajarish orqali loyihani mahalliy kompyuteringizda ishga tushirishingiz mumkin:
+
+```bash
+git clone https://github.com/SardorbekCoder07/Comfy-Store.git
+cd Comfy-Store
+npm install       # yoki yarn install
+npm run dev         # yoki yarn start
+
+
+
+Mana shunday qilib barchasini to‘liq va ixcham qilib yozib qo‘ydim. Yana yordam kerak bo‘lsa, bemalol yozing!

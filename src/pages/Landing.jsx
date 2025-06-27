@@ -1,20 +1,21 @@
-import React from 'react'
-import { Hero } from '../components'
-import FeaturedProducts from '../components/FeaturedProducts'
+import { FeaturedProducts, Hero } from '../components'
 import { customFetch } from '../utils'
-const url='/products?featured=true'
-export const loader=async ()=>{
-  const response=await customFetch(url)
-  const products=response.data.data
-  return {products}
+const url = '/products?featured=true'
+export const loader = async () => {
+	const response = await customFetch(url)
+	const products = response.data.data
+	return { products }
+
 }
+
+
 const Landing = () => {
-  return (
-    <section className='align-element'>
-      <Hero/>
-      <FeaturedProducts/>
-    </section>
-  )
+	return (
+		<>
+			<Hero />
+			<FeaturedProducts />
+		</>
+	)
 }
 
 export default Landing

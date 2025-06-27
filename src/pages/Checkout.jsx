@@ -1,9 +1,9 @@
-import React from 'react'
-
 const Checkout = () => {
-  return (
-    <div>Checkout</div>
-  )
+	return (
+		<h1 className='text-4xl'>
+			Checkout
+		</h1>
+	)
 }
 
 export default Checkout
